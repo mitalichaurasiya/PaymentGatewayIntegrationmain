@@ -1,0 +1,92 @@
+<style>
+    *{
+        margin:0;
+    }
+
+    .navbar{
+        padding: 20px;
+    }
+
+    .header{
+        opacity: 0.7;
+        height:400px;
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+    #slideshow {
+    position: relative;
+    width: 100%;
+    }
+
+    .form-control{
+        width: 50%;
+        margin: 0 380px 0 380px;
+        border-radius: 40px;
+        padding: 25px;
+    }
+
+    .donate{
+        text-align: center;
+        margin-top: 1px;
+        padding:50px;
+    }
+
+    .about{
+        margin: 150px 100px 100px 100px;
+        padding: 50px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+    .footer
+    {
+        padding: 20px;
+        text-align: center;
+        background-color:#26272b;
+    }
+    .footer a{
+        /* font-size: larger; */
+        margin: 50px;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        transition: 1s;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .footer a:hover{
+        color: black;
+        background-color: white;
+    }
+
+
+    .btn{
+        border: 0;
+        position: relative;
+        padding: 15px 25px;
+        margin: 50px 0;
+        color:white;
+        border-radius: 50px;
+        background: linear-gradient(90deg,#0162c8,#55e7fc);
+    }
+
+    .btn:hover{
+        color:white
+    }
+
+
+   input[type="number"]::-webkit-outer-spin-button,
+   input[type="number"]::-webkit-inner-spin-button {
+           -webkit-appearance: none;
+           margin: 0;
+       }
+
+    input[type="number"] {
+       -moz-appearance: textfield;
+       }
+
+
+</style>
